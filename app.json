@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jose_luis_850.myapp"
     },
     "web": {
       "bundler": "metro",
@@ -30,7 +31,13 @@
       "expo-router"
     ],
     "experiments": {
-      "typedRoutes": true
+      "typedRoutes": true,
+      "baseUrl": "/ReactNative"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3372926a-75c8-4743-b3de-3ce2becb3f08"
+      }
     }
   }
 }
