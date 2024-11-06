@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { View } from "react-native";
 import styled from "styled-components/native";
 import { Alert } from "react-native";
-import { useRouter } from "expo-router";
+//import { useRouter } from "expo-router";
 
 
 const Label = styled.Text`
