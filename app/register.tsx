@@ -39,7 +39,7 @@ const MainContainer = styled(View)`
         const [password, setPassword] = useState('');
         const [username, setUsername] = useState('');
         const [confirmPassword, setConfirmPassword] = useState('');
-        const router = useRouter();
+        //const router = useRouter();
       
         const validatePassword = (password: string) => {
           const regex = /^(?=.*[A-Z])(?=.*[!@#$%^&*(),.?":{}|<>])[A-Za-z\d!@#$%^&*(),.?":{}|<>]{8,}$/;
@@ -66,9 +66,9 @@ const MainContainer = styled(View)`
               Alert.alert('Error', 'Las contraseñas no coinciden');
             } else {
               console.log('Login exitoso');
-              router.push({
-                pathname: '/',
-              });
+              //router.push({
+                //pathname: '/',
+              //});
             }
           };
           
